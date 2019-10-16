@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+#videoSearch{
+    width: 70%;
+    align-self:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#videoSearch > #searchBar{
+    width: 500px;
+    height: 20px;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 2px;
+    padding-left: 5px; 
+    font-size: 14px;
+}
+#videoSearch > button{
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 2px;
+    background-color: rgb(235, 235, 235);
+    color: grey;
+    padding: 0 20px 0 20px;
+}
+
+#videoSearch > button:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+
+#logo{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#logo > img{
+    width: 200px;
+}
+
+main{
+    width: 70%;
+    margin: 20px;
+    padding: 20px;
+    visibility: hidden;
+    background-color: white;
+    border: solid 1px rgb(225, 225, 225);
+    border-radius: 3px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bttnContainer > button{
+    margin: 15px 0 15px 0;
+    padding: 10px;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 2px;
+    background-color: rgb(235, 235, 235);
+    color: grey;
+}
+
+#bttnContainer > button:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item{
+    width: 90%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item div{
+    width:30%;
+    height: 180px;
+    font-size: 20px;
+    padding: 0 10% 0 10%;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 3px;
+    background-color: rgb(250, 250, 250);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.item img{
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 3px;
+}
+
+.item img:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+
+.item div p:hover{
+    cursor: pointer;
+    opacity:0.5;
+}
