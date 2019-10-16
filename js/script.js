@@ -10,7 +10,7 @@ function callVideos(val, callback){
         data:{
             q: val,
             part: 'snippet',
-            key: 'AIzaSyAT3roeRr42-u48NZdxyXWRYSp5lGzGKm8',
+            key: 'API_KEY',
             maxResults: 10
         },
         method: "GET",
